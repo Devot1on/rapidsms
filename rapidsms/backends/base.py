@@ -32,6 +32,9 @@ class BackendBase(object):
 
     def __repr__(self):
         return "<backend: %s>" % self.name
+    
+    def __testnewfunc__(self):
+        return True
 
     def configure(self, **kwargs):
         """
