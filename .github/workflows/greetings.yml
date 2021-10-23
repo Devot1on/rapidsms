@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: '欢迎光临发布issue'
-        pr-message: '欢迎光临发布pr'
+        issue-message: '欢迎您发布issue参与项目讨论'
+        pr-message: '欢迎您发布pr参与项目开发'
