@@ -8,6 +8,13 @@ DATABASES = {
     }
 }
 
+def out():
+    print("I'm testing greetings let's go")
+    i = 0
+    while i < 100:
+        print i
+        i += 1
+
 INSTALLED_BACKENDS = {
     'message_tester': {
         'ENGINE': 'rapidsms.backends.database.DatabaseBackend',
