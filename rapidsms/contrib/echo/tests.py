@@ -26,6 +26,9 @@ class TestEchoHandler(RapidTest):
 
     def test_no_match(self):
         self._test_handle('no match', None)
+        
+    def hello(self):
+        print("hello")
 
     def test_only_keyword(self):
         self._test_handle('echo', 'To echo some text, send: ECHO <ANYTHING>')
